@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  mybrother:
+    container_name: mybrother
+    image: ghcr.io/shindy-dev/mybrother:latest
+    restart: always
+    ports:
+      - "8000:8000"
+    hostname: mybrother
+    platform: linux/amd64
+    stdin_open: true
+    tty: true
