@@ -31,7 +31,7 @@ fi
 # mybrother環境のアクティベート
 source /root/.bashrc
 # ディレクトリ移動
-cd /home/dev/github/mybrother
+cd /home/dev/github/mybrother/MyBrotherApp
 # if [ -f /home/dev/github/mybrother/manage.py ]; then
 #     # manage.pyが存在する場合はマイグレーション＆サーバーを実行
 #     python manage.py makemigrations
