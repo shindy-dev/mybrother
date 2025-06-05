@@ -30,7 +30,6 @@ fi
 
 # mybrother環境のアクティベート
 source /root/.bashrc
-micromamba activate mybrother
 # ディレクトリ移動
 cd /home/dev/github/mybrother
 # if [ -f /home/dev/github/mybrother/manage.py ]; then

@@ -3,7 +3,7 @@ version: '3.8'
 services:
   mybrother:
     container_name: mybrother
-    image: ghcr.io/shindy-dev/mybrother:latest
+    image: ghcr.io/shindy-dev/mybrother:25.10
     restart: always
     ports:
       - "8000:8000"
