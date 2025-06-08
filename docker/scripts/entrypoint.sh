@@ -10,6 +10,9 @@ if [ ! -f "$MARKER_FILE" ]; then
     
     # git pull モード指定
     git config --global pull.rebase true
+    git config --global user.name shindy-dev
+    git config --global user.email shindy.developer@gmail.com
+    
     # git pull
     (cd /home/dev/github/mybrother && git clone -q https://github.com/shindy-dev/mybrother.git .)
 
