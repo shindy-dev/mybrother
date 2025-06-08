@@ -3,6 +3,7 @@ set -e  # エラーがあれば即終了
 
 # マーカーパス
 MARKER_FILE="/var/.entrypoint_initialized"
+source /root/.bashrc
 
 # 初回起動チェック
 if [ ! -f "$MARKER_FILE" ]; then
@@ -32,7 +33,6 @@ fi
 
 
 # mybrother環境のアクティベート
-source /root/.bashrc
 # ディレクトリ移動
 cd /home/dev/github/mybrother/MyBrotherApp
 # if [ -f /home/dev/github/mybrother/manage.py ]; then
