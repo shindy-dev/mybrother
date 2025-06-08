@@ -15,7 +15,7 @@ RUN apt update && apt upgrade -y && \
 RUN rm -rf /tmp/* /var/tmp/* /root/.cache/*
 
 # コンテナ起動時の作業ディレクトリ
-WORKDIR /home/dev/github/mybrother/MyBrotherApp
+WORKDIR /home/dev/github/mybrother
 
 # サーバ初期化後に処理したいスクリプト(entrypoint.sh内でコール)をコピー
 COPY docker/scripts/postprocessing.sh /var/custom/postprocessing.sh
