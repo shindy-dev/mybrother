@@ -28,4 +28,4 @@ ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 
 # docker run 時のデフォルトコマンド
 # docker run <image> <ip>:<port>で任意のip:portを指定可能
-# CMD ["0.0.0.0:8000"]
+CMD ["0.0.0.0:8000"]
